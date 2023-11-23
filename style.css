@@ -392,7 +392,7 @@ nav .navlinks li a {
 }
 .contact-part {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .contact-details {
     flex-direction: column;
@@ -426,23 +426,17 @@ nav .navlinks li a {
 }
 
 .block-contact span a{
-    margin-left: 40px;
+    margin-left: 60px;
     color: #007ced;
 }
-.block-contact span a:nth-child(1),
-.block-contact span a:nth-child(2) {
-    margin-left: 40px;
-}
-
 .contact-form nav {
     background: #534f4f;
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
-    width: 90%;
+    width: 35vw;
     max-width: 600px;
     border-radius: 10px;
-    /* border: #ff5361; */
     margin-top: 60px;
 }
 
