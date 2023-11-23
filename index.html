@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Me | Pinsoe Folio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <!-- Sending Email -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("aTVR4u5lb_TJsIkgw");
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a">G.</i>
+                    <div class="logo-text">Pinsoe Gustave</div>
+                </div>
+                <nav>
+                    <div onclick="toggle()" class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#folio">Portfolio</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="images/picture.jpg" alt="profile-pic">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Backend Developer</span></h5>
+                    <h1>Pinsoe Gustave</h1>
+                    <p>NTWALI MUDASUBIRA GUSTAVE, also known as Pinsoe Gustave, is my name. 
+                        I'm an enthusiastic and diligent individual with a keen interest in 
+                        software development. I am actively seeking practical experience 
+                        within a professional team. I possess a solid grasp of software 
+                        development principles and am eager to acquire knowledge about 
+                        emerging technologies. As a recent graduate with a high school 
+                        diploma in software development, I am committed to contributing 
+                        my skills and staying abreast of industry advancements..
+                    </p>
+                    <div class="btn-group">
+                        <a href="pinsoeresume.pdf" target="_blank" class="btn active">Download CV</a>
+                        <a href="#contact-me" class="btn">Contact Me</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="http://web.facebook.com/pinsoegustave"><img src="images/facebook.svg" class="icons"
+                                alt=""></a>
+                        <a href="http://www.instagram.com/pinsoegustave"><img src="images/square-instagram.svg"
+                                class="icons" alt=""></a>
+                        <a href="http://www.twitter.com/pinsoeg"><img src="images/x-twitter.svg" class="icons"
+                                alt=""></a>
+                        <a href="http://www.linkedin.com/in/pinsoegustave"><img src="images/linkedin.svg" class="icons"
+                                alt=""></a>
+                        <a href="http://www.github.com/pinsoegustave"><img src="images/github.svg" class="icons"
+                                alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Skills  -->
+            <div id="skills">
+                <div class="web-card">
+                    <div class="front">
+                        <h4>Frontend developer</h4>
+                        <ul>
+                            <li><img src="images/html5.svg" alt="" class="icons">&nbsp;HTML</li>
+                            <li><img src="images/css3-alt.svg" alt="" class="icons">&nbsp;CSS</li>
+                            <li><img src="images/square-js.svg" alt="" class="icons">&nbsp;Javascript</li>
+                            <li><img src="images/bootstrap.svg" alt="" class="icons">&nbsp;ReactJS</li>
+                            <li><img src="images/bootstrap.svg" alt="" class="icons">&nbsp;Bootstrap</li>
+                            <li><img src="images/css3.svg" alt="" class="icons">&nbsp;Tailwind CSS</li>
+                        </ul>
+                    </div>
+                    <div class="back">
+                        <h4>Backend developer</h4>
+                        <ul>
+                            <li><img src="images/java.svg" class="icons" alt="">&nbsp;Java Springboot</li>
+                            <li><img src="images/php.svg" class="icons" alt="">&nbsp;PHP Laravel</li>
+                            <li><span class="material-icons">verified </span>&nbsp;NodeJS</li>
+                            <li><img src="images/c-solid.svg" class="icons" alt="">&nbsp;C/C++</li>
+                            <li><span class="material-icons">verified </span>&nbsp;SQL</li>
+                            <li><span class="material-icons">verified </span>&nbsp;Postgres SQL</li>
+                            <li><span class="material-icons">verified </span>&nbsp;NoSQL-MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pro-card">
+                    <h4>Other Computing skills</h4>
+                    <ul>
+                        <li><span class="material-icons">verified </span>&nbsp;Git | Github</li>
+                        <li><span class="material-icons">verified </span>&nbsp;Postman API</li>
+                        <li><span class="material-icons">verified </span>&nbsp;Microsoft Office</li>
+                        <li><span class="material-icons">verified </span>&nbsp;Object-Oriented Programming</li>
+                        <li><span class="material-icons">verified </span>&nbsp;Algorithms and Data Structures</li>
+                    </ul>
+                </div>
+                <div class="pro-card">
+                    <h4>Technical skills</h4>
+                    <ul>
+                        <li><span class="material-icons">verified </span>&nbsp;Committment</li>
+                        <li><span class="material-icons">verified </span>&nbsp;Passionate</li>
+                        <li><span class="material-icons">verified </span>&nbsp;Teamwork</li>
+                        <li><span class="material-icons">verified </span>&nbsp;Time Management</li>
+                        <li><span class="material-icons">verified </span>&nbsp;Communication skills</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- PortFolio -->
+            <div id="folio" class="folio">
+                <h1>Portfolio</h1>
+                <p>This is just a picture proof of my projects, in like with one of them you can
+                    <a href="#contact">contact</a>
+                </p>
+                <div class="pics">
+                    <a href="https://twitter-cloned-in-html-css.netlify.app/" target="_blank"><img src="images/twitter.jpeg" alt=""></a>
+                    <a href="https://linkedin-cloned-in-html-css.netlify.app/" target="_blank"><img src="images/linkedin.jpeg" alt=""></a>
+                    <a href="#contact-me"><img src="images/what.PNG" alt=""></a>
+                    <a href="https://pinsoegustave.github.io/weatherpinsoe/" target="_blank"><img src="images/weather.PNG" alt=""></a>
+                    <a href="https://pinsoegustave.github.io/rpsgamepinsoe/" target="_blank"><img src="images/scissor.PNG" alt=""></a>
+                    <a href="https://pinsoegustave.github.io/quizbypinsoe/" target="_blank"><img src="images/quiz.PNG" alt=""></a>
+                    <nav><a href="#contact-me">Contact for more projects &RightArrow;</a></nav>
+                </div>
+            </div>
+            <!-- Qualification -->
+            <div class="" id="resume">
+                <h1>Attendance</h1>
+                <div class="part">
+                    <div class="cert">
+                        <h3>Experience</h3>
+                        <div class="block">
+                            <h5>KLab High School Leavers Program &#x2022; 18 October 2023 &dash; Current</h5>
+                            <p> Engaged in the Knowledge Lab High School Leavers Program since October 18, 2023. 
+                                Actively learning diverse software development concepts, focusing on HTML, CSS, Javascript for frontend development, and utilizing Figma for UI/UX design. Aiming to 
+                                successfully complete the comprehensive program and emerge as a proficient fullstack developer.
+                            </p>
+                        </div>
+                        <div class="block">
+                            <h5>Software Development Internee &#x2022; NETBRAIN RWANDA LTD &#x2022;
+                                20 March 2023 &dash; 21 April 2023 &#x2022; 1 month</h5>
+                            <p>Engaged in backend web development during an internship, employing PHP, 
+                                Java Springboot, and NodeJS. Took a leadership role within a learning team, successfully guiding it to be the first to complete the assigned tasks. The month-long experience also provided 
+                                valuable networking opportunities with mentors from prominent ICT companies in our country.
+                            </p>
+                        </div>
+                        <div class="block">
+                            <h5>Software Development Internee &#x2022; NOVA SERVICES LTD &#x2022;
+                                07 April 2022 &dash; 06 May 2022 &#x2022; 1 month</h5>
+                            <p>
+                                My inaugural internship broadened my perspective by exposing me to real-world programmers.
+                                 I honed my skills in frontend web development, mastering HTML, CSS, and gaining a foundational understanding of Javascript frameworks such as ReactJS. This experience supplemented our curriculum
+                                 by illustrating practical applications of the skills learned in a professional setting.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="images/trees.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- Contact Me -->
+            <div class="contact" id="contact-me">
+                <div class="heading">
+                    <h3 class="heading">Quick contact</h3>
+                    <span>Feel free to approach</span>
+                </div>
+                <div class="contact-part">
+                    <div class="contact-details">
+                        <div class="block-contact">
+                            <img src="images/whatsapp.svg" class="icons" alt="">
+                            <p><b>Contact / Whatsapp:</b> <br> +(250) 789-868-814</p>
+                            <span><a href="https://wa.me/0789868814" target="_blank">Click to message</a> /<a href="">Call</a></span>
+                        </div>
+
+                        <div class="block-contact">
+                            <img src="images/envelope-solid.svg" class="icons" alt="">
+                            <p><b>Email:</b> ntwalimudasubirag@gmail.com</p>
+                            <span> <a href="mailto:ntwalimudasubirag@gmail.com" target="_blank">Click to
+                                    message</a></span>
+                        </div>
+                        <div class="block-contact">
+                            <img src="images/linkedin.svg" class="icons" alt="">
+                            <p><b>LinkedIn:</b>&nbsp;Pinsoe Gustave</p>
+                            <span><a href="https://www.linkedin.com/in/pinsoegustave" target="_blank">Click to
+                                    view</a></span>
+                        </div>
+                        <div class="block-contact">
+                            <img src="images/github.svg" class="icons" alt="">
+                            <p><b>Github:</b>&nbsp;Pinsoe Gustave</p>
+                            <span><a href="http://www.github.com/pinsoegustave" target="_blank">Click to view</a></span>
+                        </div>
+
+                    </div>
+                    <div class="contact-form">
+                        <nav>
+                            <h3>GET IN TOUCH WITH PINSOE</h3>
+                            <input type="text" id="name" placeholder="Your name" required>
+                            <input type="text" id="phone" placeholder="Phone no" required>
+                            <input type="email" id="email_id" placeholder="Email id" required>
+                            <input type="subject" id="subject" placeholder="Subject" required>
+                            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                            <button onclick="sendMail();">Send</button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class="footer">
+                <center>
+                    <h2>Work with Pinsoe Gustave</h2>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#folio">Portfolio</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact-me">Contact</a></li>
+                    </ul>
+                    <div class="footer-contact">
+                        <div class="footer-block-contact">
+                            <img src="images/facebook.svg" class="icons" alt="">
+                            <p>Facebook: Pinsoe Gustave</p>
+                            <span><a href="http://web.facebook.com/pinsoegustave" target="_blank">Click to
+                                    view</a></span>
+                        </div>
+                        <div class="footer-block-contact">
+                            <img src="images/square-instagram.svg" class="icons" alt="">
+                            <p>Instagram: Pinsoe Gustave</p>
+                            <span><a href="http://www.instagram.com/pinsoegustave" target="_blank">Click to
+                                    view</a></span>
+                        </div>
+                        <div class="footer-block-contact">
+                            <img src="images/linkedin.svg" class="icons" alt="">
+                            <p>LinkedIn:Pinsoe Gustave</p>
+                            <span><a href="http://www.linkedin.com/in/pinsoegustave" target="_blank">Click to
+                                    view</a></span>
+                        </div>
+                        <div class="footer-block-contact">
+                            <img src="images/x-twitter.svg" class="icons" alt="">
+                            <p>X: Pinsoe Gustave</p>
+                            <span><a href="http://www.twitter.com/pinsoeg" target="_blank">Click to view</a></span>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        &copy;Pinsoe Gustave 2023
+                    </div>
+
+                </center>
+            </div>
+        </div>
+    </div>
+    <a href="#"><span id="gotopBtn" class="material-symbols-outlined">arrow_upward</span></a>
+    <!-- Typed JS for typing text effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <script defer src="main.js"></script>
+</body>
+
+</html>
